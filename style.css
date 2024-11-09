@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #FFD670; */
+    text-align: center;
+    background: hsla(230, 59%, 25%, 1);
+
+background: linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1A2766", endColorstr="#AE1B1E", GradientType=1 );
+
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    font-size: 8vmin;
+    background-color: #ff9770;
+
+}
+
+#reset-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #FF9770;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 70px;
+}
+
+#new-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #FF9770;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: #ffffc7 ;
+    font-size: 5vmin;
+}
+
+.msg-container{
+   height: 100vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+#heading{
+    color:white;
+    text-transform: uppercase;
+    margin-top: 60px;
+    
+}
